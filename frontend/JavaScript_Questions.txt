@@ -1,0 +1,42 @@
+This document contains the main JavaScript interview questions and answers as shown in your HTML file. For a full-featured PDF with all content and formatting, use a PDF export tool or a library like jsPDF in your project.
+
+JavaScript Interview Question and answers Important
+
+1. What is the difference between var, let, and const?
+- var: Function-scoped or globally scoped, can be re-declared and updated.
+- let: Block-scoped, can be updated but not re-declared in the same scope.
+- const: Block-scoped, cannot be updated or re-declared; must be initialized at declaration.
+
+2. What is a closure in JavaScript?
+A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. It allows the function to remember variables from its outer scope.
+
+3. What is the difference between == and === in JavaScript?
+- ==: Compares values for equality after performing type coercion.
+- ===: Compares both value and type for strict equality, without type coercion.
+
+4. What is the purpose of the 'this' keyword in JavaScript?
+The 'this' keyword refers to the context in which a function is executed. It can refer to the global object, an object instance, or be undefined in strict mode, depending on how the function is called.
+
+5. What is event delegation in JavaScript?
+Event delegation is a technique where a single event listener is added to a parent element to manage events for multiple child elements. This improves performance and simplifies event handling by reducing the number of event listeners needed.
+
+6. What is the difference between synchronous and asynchronous JavaScript?
+- Synchronous: Code execution happens in a sequential manner, blocking the thread until the current operation completes.
+- Asynchronous: Code execution can continue while waiting for operations (like network requests) to complete, allowing other code to run in the meantime.
+
+7. What is a promise in JavaScript?
+A promise is an object representing the eventual completion (or failure) of an asynchronous operation. It allows you to handle asynchronous results using .then() for success and .catch() for errors.
+
+8. What is the purpose of the 'async' and 'await' keywords in JavaScript?
+The 'async' keyword is used to declare a function as asynchronous, allowing it to use the 'await' keyword. The 'await' keyword pauses the execution of the async function until the promise is resolved, making asynchronous code easier to read and write.
+
+9. What is the difference between null and undefined in JavaScript?
+- null: An intentional absence of any object value, explicitly assigned.
+- undefined: A variable that has been declared but not assigned a value, or a function that does not return a value.
+
+10. What is the purpose of the 'bind', 'call', and 'apply' methods in JavaScript?
+- bind: Creates a new function with a specified 'this' context and optional arguments.
+- call: Invokes a function with a specified 'this' context and arguments passed individually.
+- apply: Invokes a function with a specified 'this' context and arguments passed as an array.
+
+... (Add more content as needed)
